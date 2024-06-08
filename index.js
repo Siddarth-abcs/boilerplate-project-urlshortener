@@ -7,7 +7,7 @@ const urlModule = require('url');
 const app = express()
 
 // Debug: Check if MONGO_URI is loaded
-// console.log("MONGO_URI:", process.env.MONGO_URI);
+console.log("MONGO_URI:", process.env.MONGO_URI);
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
