@@ -33,7 +33,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', function(req, res) {
-  res.send("helle api")
+  res.json("helle api")
 });
 
 // Your first API endpoint
